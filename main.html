@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel = "icon" href = "images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+</head>
+<body>
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <a href="#">This is my Homepage</a>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__menu__item"><button id="aboutBtn">About</button></li>
+      <li class="navbar__menu__item"><button id ="skillsBtn">Skills</button></li>
+    </ul>
+  </nav>
+  <!--home-->
+  <section id = "home">
+    <img src = "images/myimage.jpg" alt = "mypicture" class = "home__avatar"/>
+    <h1 class="home__title">Hello, <br />I'm yunmi</h1>
+    <h2 class="home__description">컴퓨터공학과 24학번</h2>
+  </section>
+
+  <section id="portfolio">
+    <h1>PORTFOLIO</h1>
+    <div class="container">
+    <div class="card busan">
+      <h3>부산행</h3>
+      <p>c언어를 사용한 좀비 잡는 게임</p>
+      <ul>
+        <li class="bold">C</li>
+      </ul>
+      <img src = "images/busan.png" alt = "busan" class = "projectimg"/>
+    </div>
+     <div class="card dune">
+      <h3>Dune</h3>
+      <p>c언어를 사용한 듄 기반 게임</p>
+      <ul>
+        <li class="bold">C</li>
+      </ul>
+      <img src = "images/dune.png" alt = "dune" class = "projectimg"/>
+    </div>
+
+    <div class="card map">
+      <h3>대덕구 카페지도</h3>
+      <p>빅데이터 분석을 통한 대덕구 카페지도</p>
+      <ul>
+        <li class="bold">Python, Pandas</li>
+      </ul>
+      <img src = "images/map.png" alt = "map" class = "projectimg"/>
+    </div>
+
+    <div class="card game">
+      <h3>간단한 게임</h3>
+      <p>파이썬을 사용한 간단한 게임을 만들어 보고 싶다.</p>
+      <ul>
+        <li class="bold">python</li>
+      </ul>
+      <img src = "images/game.png" alt = "game" class = "projectimg"/>
+    </div>
+
+    <div class="card algorithm">
+      <h3>알고리즘</h3>
+      <p>c언어와 파이썬으로 알고리즘 문제들을 풀어보고싶다.</p>
+      <ul>
+        <li class="bold">C, Python</li>
+      </ul>
+      <img src = "images/algorith.png" alt = "algorithm" class = "projectimg"/>
+    </div>
+  </div>
+  </section>
+
+
+  <section id = "connect">
+    <div class="connect__title">CONNECT</div>
+    <div class="connect__description">
+      <i class="fa-brands fa-instagram"></i>
+      Instagram @2yunnm1
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

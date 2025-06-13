@@ -1,0 +1,33 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#container{
+  position:relative;
+  width: 300px;;
+  height: 200px;;
+  border:2px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; /* 이미지가 컨테이너에 맞게 조정 */
+  border-radius: 10px;     
+}
+
+.arrow {
+  z-index:100;
+  font-size:2em;
+  padding:10px;
+  background:#ddd;
+  color:#222;
+  opacity:0.2;
+}
+
+.arrow:hover {
+  opacity:1;
+}

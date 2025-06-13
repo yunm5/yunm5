@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나의 능력</title>
+  <link rel = "stylesheet" href = "css/skills.css">
+  <style>
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: antiquewhite;
+    }
+    h1 {
+      padding: 20px;
+      color: #000;
+    }  
+    h2{
+      padding: 20px;
+    }
+    button {
+    position:fixed;
+    right:50px;
+    bottom:30px;
+    }
+  </style>
+</head>
+<body>
+   <h1>나의 스킬!</h1>
+   <h2>좌우 화살표를 눌러 보세요</h2>
+
+   <div id = "container">
+    <div class ="arrow" id = "left">&lang;</div>
+    <div class ="arrow" id = "right">&rang;</div>
+  </div>
+
+   <!-- <button onclick="window.close()">닫기</button> -->
+<script src = "js/skills.js"></script>
+</body>
+</html>
