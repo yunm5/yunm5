@@ -74,8 +74,7 @@ ul {
 }
 
 #home {
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAEsCAMAAABgwwj8AAAAA1BMVEXk3fpgb+X2AAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+BsYMAAFjd3WkAAAAAElFTkSuQmCC")
-    center/cover no-repeat;
+  background-color: #E6E6FA;
   padding: 40px;
   text-align: center;
 }
